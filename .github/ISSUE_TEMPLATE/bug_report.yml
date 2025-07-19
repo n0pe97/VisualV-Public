@@ -1,0 +1,57 @@
+name: 🐛 Bug Report
+description: Melde einen Fehler und hilf uns, das Projekt zu verbessern
+title: "[BUG] "
+labels: ["bug"]
+assignees:
+  -n0pe97
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Beschreibe den Bug
+      description: Eine klare und präzise Beschreibung des Bugs.
+      placeholder: Z. B. "Wenn ich X mache, passiert Y..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduzierung
+    attributes:
+      label: Reproduzierung
+      description: Schritte, um den Bug auszulösen
+      placeholder: |
+        1. Gehe zu '...'
+        2. Klicke auf '...'
+        3. Fehler tritt auf
+    validations:
+      required: true
+
+  - type: textarea
+    id: erwartetes_verhalten
+    attributes:
+      label: Erwartetes Verhalten
+      description: Was hätte stattdessen passieren sollen?
+      placeholder: Z. B. "Ich hätte erwartet, dass..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots_logs
+    attributes:
+      label: Screenshots / Logs
+      description: (Optional) Füge Screenshots oder relevante Log-Dateien hinzu
+
+  - type: textarea
+    id: kontext
+    attributes:
+      label: Zusätzlicher Kontext
+      description: Weitere Informationen, z. B. Auswirkungen, Schäden oder Situationen, in denen es auftritt
+
+  - type: input
+    id: username
+    attributes:
+      label: Dein Benutzername
+      description: Schreibe hier deine Ingame-Benutzernamen hin
+      placeholder: z. B. n0pe
+    validations:
+      required: true
