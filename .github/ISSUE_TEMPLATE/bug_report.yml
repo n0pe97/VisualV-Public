@@ -3,7 +3,7 @@ description: Melde einen Fehler und hilf uns, das Projekt zu verbessern
 title: "[BUG] "
 labels: ["bug"]
 assignees:
-  -n0pe97
+  - n0pe97
 body:
   - type: textarea
     id: beschreibung
