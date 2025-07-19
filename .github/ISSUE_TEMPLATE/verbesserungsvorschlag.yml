@@ -1,0 +1,49 @@
+name: 💡 Verbesserungsvorschlag
+description: Schlage eine neue Idee oder Verbesserung vor
+title: "[SUGGESTION] "
+labels: ["enhancement"]
+assignees:
+  - n0pe97
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Ist dein Vorschlag auf ein Problem zurückzuführen?
+      description: Eine klare und präzise Beschreibung des Problems. Z. B. "Ich bin immer frustriert, wenn..."
+      placeholder: Z. B. "Ich bin immer frustriert, wenn ich keine Möglichkeit habe, XYZ zu tun."
+    validations:
+      required: false
+
+  - type: textarea
+    id: loesung
+    attributes:
+      label: Beschreibe die Lösung, die du gerne hättest
+      description: Was wäre deiner Meinung nach eine sinnvolle Änderung?
+      placeholder: Z. B. "Ich würde gerne sehen, dass..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativen
+    attributes:
+      label: Welche Alternativen hast du in Betracht gezogen?
+      description: (Optional) Andere mögliche Ideen oder Lösungswege
+      placeholder: Z. B. "Alternativ könnte man auch..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: kontext
+    attributes:
+      label: Zusätzlicher Kontext
+      description: Weitere Infos, Screenshots oder Anwendungsbeispiele
+      placeholder: Z. B. "Das Feature wäre besonders nützlich in diesen Situationen..."
+
+  - type: input
+    id: username
+    attributes:
+      label: Benutzername
+      description: Schreibe deinen Ingame-Benutzernamen hier rein
+      placeholder: z. B. n0pe
+    validations:
+      required: true
